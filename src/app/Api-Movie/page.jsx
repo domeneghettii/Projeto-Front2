@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "../Api-Movie/Api.module.css";
-import Footer from "../components/Footer";
+
 export default function ApiInfo() {
   return (
     <div className={styles.container}>
@@ -51,13 +51,6 @@ export default function ApiInfo() {
         </div>
       </div>
 
-      <footer className={styles.footer}>
-        <Footer />
-        <div className={styles.footerLinks}>
-          <a href="/" className={styles.footerLink}>🏠 Voltar para Home</a>
-          <a href="/Filmes" className={styles.footerLink}>🎬 Ver Filmes</a>
-        </div>
-      </footer>
     </div>
   );
 }
